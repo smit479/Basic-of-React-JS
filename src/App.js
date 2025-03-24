@@ -10,7 +10,9 @@ import IfLoop from './components/Conditionals/ifloop';
 import List from './components/List/List';
 import ListKeys from './components/List/ListKeys';
 import Sheet1 from './components/StyleSheet/Sheet1';
-import styles from  './appStyles.module.css'
+import styles from  './appStyles.module.css';
+import Forms2 from './components/form_handling/forms2';
+
 
 //classClicked
 
@@ -47,11 +49,14 @@ function App() {
         <Parentcom/>
   <IfLoop></IfLoop>
   <List></List>
+ 
   <ListKeys></ListKeys>
+  <hr></hr>
   <Sheet1 primary ={true}></Sheet1>
  
   <h1 className={styles.success}>Error</h1>
-       
+<hr></hr>
+  <Forms2></Forms2>
           
 
       {/* <Greet></Greet>
